@@ -93,4 +93,6 @@
     display: inline;
     align-items: flex-end;
   }
-  
+  @media screen and (max-width: 400px) { 
+    justify-content:flex-shrink: .main .image .section
+  }
