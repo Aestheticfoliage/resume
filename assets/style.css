@@ -10,14 +10,12 @@
   display: grid;
     background-color: var(--green);
   }
-  .resumeTable{
+  .jobTypes{
     display: flex;
-    align-content: flex-start;
   }
   header {
     border: solid 3px var(--dark);
     display: inline;
-    justify-content: flex-end;
     height: max-content;
     width: 100%;
     color: #1c310b;
@@ -49,7 +47,6 @@
   
   section {
     border: solid 3px --brown;
-    display: flex;
     grid-template: columns;
     background-color: var(--light);
     border-radius: 3px;
@@ -57,7 +54,6 @@
   
   .ul {
     list-style: none;
-    display: flex;
     flex-grow: 1;
     height: 30px;
     background-color: var(--light);
